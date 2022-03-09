@@ -1,7 +1,8 @@
 # BorderedTextField
 SwiftUI custom bordered text field with placeholder text in border.
 
-### Usage: This control can be used in following different ways
+### Usage: 
+This control can be used in following different ways
 
 ```swift
 BorderedTextField(placeHolder: .constant("TextField Editable"), text: $text)
@@ -21,11 +22,13 @@ BorderedTextField(placeHolder: .constant("Focus Highlight Color "), text: $text,
 
 
 ### Installation
-Currently BorderedTextField is only avaliable via SPM. You can also add manually to your project.
+Currently BorderedTextField is only avaliable via Swift Package Manager. You can also add manually to your project.
 
-SPM
+####  Swift Package Manager (SPM)
 If you have already Swift package set up, add BorderedTextField as a dependency to your dependencies in your Package.swift file.
 
+```swift
 dependencies: [
     .package(url: "https://github.com/KrishnaRLolage/BorderedTextField.git")
 ]
+```
